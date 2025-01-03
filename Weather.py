@@ -31,6 +31,7 @@ def main():
     weather = get_weather(coordinates)
     print(str(weather['temperature'])+ " F")
     print(str(weather['windspeed']) + " mph")
+    input("Press Enter to exit...")
 
 
 main()
